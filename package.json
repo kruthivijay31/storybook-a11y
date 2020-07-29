@@ -1,0 +1,33 @@
+{
+  "name": "storybook-a11y",
+  "version": "1.0.0",
+  "description": "Demo for storybook a11y",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kruthivijay31/storybook-a11y.git"
+  },
+  "keywords": [
+    "accessibility",
+    "a11y",
+    "storybook"
+  ],
+  "author": "Kruthi Venkatesh <kruthivijay31@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kruthivijay31/storybook-a11y/issues"
+  },
+  "homepage": "https://github.com/kruthivijay31/storybook-a11y#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@storybook/html": "^5.3.19",
+    "babel-loader": "^8.1.0"
+  },
+  "dependencies": {
+    "@storybook/addon-a11y": "^5.3.19"
+  }
+}
